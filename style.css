@@ -1,0 +1,432 @@
+
+body{
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: #333;
+font-size: 1.2rem;
+line-height: 1.6em;
+margin: 0;
+
+}
+.container{
+
+    width: 100%;
+    max-width: 900px;
+    margin:0 auto;
+}
+
+.cabecera{
+background: #2c2869;
+color: white;
+padding: 2rem 0;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+
+}
+
+.cabecera a{
+
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+
+    letter-spacing: 10px;
+    font-size: 1.3rem;
+}
+
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navegacion ul li{
+
+    display: inline-block;
+}
+
+        .navegacion ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s;
+        border-radius: 5px;
+}
+
+.navegacion ul li a:hover{
+    background: rgb(105, 104, 104);
+}
+.main{
+    padding: 12rem;
+}
+.footer{
+        background: rgb(209, 209, 209);
+        padding: 2rem 0;
+        text-align: center;
+        margin-top: 6rem;
+}
+
+.busqueda{
+    background-color: #cddfff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0.1rem 5rem;
+
+}
+
+
+.cuadro-css{
+
+  display: flex;
+  
+  font-size: 15px;
+  font-family: 'Verdana', sans-serif;
+  font-weight: 200;
+  color: #444;
+  line-height: 1.3;
+  padding: .3em 1.4em .3em .6em;
+  width: 170px;
+  max-width: 100%; 
+  box-sizing: border-box;
+ margin: 20px auto;
+  border: 1px solid #aaa;
+  box-shadow: 0 2px 0 2px rgba(0,0,0,.03);
+  border-radius: .3em;
+  background-color: #fff;
+
+  
+
+}
+
+.opcion-1{
+    background-color: #c7dfff;
+
+}
+.opcion-2{
+    background-color: #c7dfff;
+}
+.opcion-3{
+    background-color: #c7dfff;
+}
+
+
+.boton
+{
+  display: block;
+  margin: 50px 0;
+  width: 100px;
+  height: 60px;
+  border: none; 
+  background-color: #2c2869;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: .2s linear;
+}
+
+.boton:hover {
+  transform: rotateX(15deg);
+  box-shadow: 0 5px 5px #014c72;
+}
+
+.inmueble-1{
+
+    height: 180px;
+    width: 910px ;
+    border: rgb(200, 200, 200) solid 1px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+}
+
+.inmueble-1 button{
+
+    height: 50px;
+    width: 50px;
+}
+
+.img-inmueble-1{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 250px;
+    border: rgb(200, 200, 200) solid 1px;
+    background: url(imagenes/apto.jpg) no-repeat center;
+    background-size: cover; 
+    background-size:  cover;                  
+   background-repeat:   no-repeat;
+   background-position: center center;
+   border: solid 1px;
+}
+
+.info-inmueble-1{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 625px;
+    border: rgb(200, 200, 200) solid 1px;
+    border-radius: 5px;
+       
+}
+
+.info-inmueble-1 p{
+
+    margin-block-start: auto;
+    margin-top: 5px;
+    margin: 5px;
+    
+}
+
+
+.inmueble-2{
+
+    height: 180px;
+    width: 910px ;
+    border: rgb(200, 200, 200) solid 1px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+}
+
+.img-inmueble-2{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 250px;
+    border: rgb(200, 200, 200) solid 1px;
+    background: url(imagenes/apto4.jpeg) no-repeat center;
+    background-size: cover; 
+    background-size:  cover;                  
+   background-repeat:   no-repeat;
+   background-position: center center;
+   border: solid 1px;
+}
+
+.info-inmueble-2{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 625px;
+    border: rgb(200, 200, 200) solid 1px;
+    border-radius: 5px;
+       
+}
+
+.info-inmueble-2 p{
+
+    margin-block-start: auto;
+    margin-top: 5px;
+    margin: 5px;
+    
+}
+
+
+.inmueble-3{
+
+    height: 180px;
+    width: 910px ;
+    border: rgb(200, 200, 200) solid 1px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+}
+
+.img-inmueble-3{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 250px;
+    border: rgb(200, 200, 200) solid 1px;
+    background: url(imagenes/apto3.jpg) no-repeat center;
+    background-size: cover; 
+    background-size:  cover;                  
+   background-repeat:   no-repeat;
+   background-position: center center;
+   border: solid 1px;
+}
+
+.info-inmueble-3{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 625px;
+    border: rgb(200, 200, 200) solid 1px;
+    border-radius: 5px;
+       
+}
+
+.info-inmueble-3 p{
+
+    margin-block-start: auto;
+    margin-top: 5px;
+    margin: 5px;
+    
+}
+
+
+.inmueble-4{
+
+    height: 180px;
+    width: 910px ;
+    border: rgb(200, 200, 200) solid 1px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+}
+
+.img-inmueble-4{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 250px;
+    border: rgb(200, 200, 200) solid 1px;
+    background: url(imagenes/apto2.jpg) no-repeat center;
+    background-size: cover; 
+    background-size:  cover;                  
+   background-repeat:   no-repeat;
+   background-position: center center;
+   border: solid 1px;
+}
+
+.info-inmueble-4{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 625px;
+    border: rgb(200, 200, 200) solid 1px;
+    border-radius: 5px;
+       
+}
+
+.info-inmueble-4 p{
+
+    margin-block-start: auto;
+    margin-top: 5px;
+    margin: 5px;
+    
+}
+
+.inmueble-5{
+
+    height: 180px;
+    width: 910px ;
+    border: rgb(200, 200, 200) solid 1px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+}
+
+.img-inmueble-5{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 250px;
+    border: rgb(200, 200, 200) solid 1px;
+    background: url(imagenes/casa.jpg) no-repeat center;
+    background-size: cover; 
+    background-size:  cover;                  
+   background-repeat:   no-repeat;
+   background-position: center center;
+   border: solid 1px;
+}
+
+.info-inmueble-5{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 625px;
+    border: rgb(200, 200, 200) solid 1px;
+    border-radius: 5px;
+       
+}
+
+.info-inmueble-5 p{
+
+    margin-block-start: auto;
+    margin-top: 5px;
+    margin: 5px;
+    
+}
+
+.inmueble-6{
+
+    height: 180px;
+    width: 910px ;
+    border: rgb(200, 200, 200) solid 1px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+}
+
+.img-inmueble-6{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 250px;
+    border: rgb(200, 200, 200) solid 1px;
+    background: url(imagenes/apto2.jpg) no-repeat center;
+    background-size: cover; 
+    background-size:  cover;                  
+   background-repeat:   no-repeat;
+   background-position: center center;
+   border: solid 1px;
+}
+
+.info-inmueble-6{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 625px;
+    border: rgb(200, 200, 200) solid 1px;
+    border-radius: 5px;
+       
+}
+
+.info-inmueble-6 p{
+
+    margin-block-start: auto;
+    margin-top: 5px;
+    margin: 5px;
+    
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.btn{
+
+    cursor: pointer;
+    display: block;
+    margin: 20px;
+    margin-right:10px ;
+    margin-top: -15px;
+    width: 70px;
+    height: 30px;
+    border: none; 
+    background-color: #2c2869;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    float:right;
+
+}
