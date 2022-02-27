@@ -13,7 +13,7 @@
 <body>
   <header class="cabecera">
       <div class="container logo-nav-container">
-          <a href="#" class="logo">LOGO</a>
+          <a href="#" class="imagen-logo"></a>
           <nav class="navegacion">
               <ul>
                <li><a href="inicio.html"><b>Inicio</b></a></li>
@@ -21,37 +21,41 @@
                <li><a href="#"><b>Publicar</b></a></li>
                <li><a href="#"><b>Acerca de</b></a></li>
               </ul>
+        </div>
+
+        <a href="#" class="logo"><b>IMAGINACION INMOBILIARIA</b></a>
    </header>
               <main class="main">
 
+                <h3>Filtrar Busqueda:</h3>
+
+
                 <div class="busqueda">
+                    <a href="#" class="ic"></a>
 
                 <select class="cuadro-css" size="1">
                     <option>Tipo de inmueble</option>
-                        <option class="opcion-1">casa</option>
+                        <option class="opcion-1">Casa</option>
                         <option class="opcion-2">Apartamento</option>
-                        <option class="opcion-3">finca</option>
-                        <option class="opcion-3">jardin</option>
+                        <option class="opcion-3">Finca</option>
+                        <option class="opcion-3">Lote</option>
+                        <option class="opcion-3">Bodega</option>
+                        <option class="opcion-3">Local</option>
                            
                 </select>
 
+
                 <select class="cuadro-css" size="1">
-                    <option><b>habitaciones</b></option>
-                        <option class="opcion-1">casa</option>
-                        <option class="opcion-2">Apartamento</option>
-                        <option class="opcion-3">finca</option>
-                        <option class="opcion-3">jardin</option>
+                    <option><b>Nuevo/Usado</b></option>
+                        <option class="opcion-1">Nuevo</option>
+                        <option class="opcion-2">Usado</option>
+                        <option class="opcion-3">Arriendo</option>
                            
                 </select>
 
-                <select class="cuadro-css" size="1">
-                    <option>Precio</option>
-                        <option class="opcion-1">casa</option>
-                        <option class="opcion-2">Apartamento</option>
-                        <option class="opcion-3">finca</option>
-                        <option class="opcion-3">jardin</option>
-                           
-                </select>
+                <form method="get" action="https://www.google.com/search" target="_blank">
+                    <input type="search" class="q" placeholder="Ciudad, Zona, Localidad" autofocus required>
+                    </form>
 
              
                 <button class="boton">Buscar</button>
