@@ -17,7 +17,7 @@ margin: 0;
 .cabecera{
 background: #2c2869;
 color: white;
-padding: 2rem 0;
+padding: 1rem 0;
 position: fixed;
 left: 0;
 top: 0;
@@ -36,14 +36,25 @@ width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
+}
 .logo{
 
-    letter-spacing: 10px;
-    font-size: 1.3rem;
+    margin-left: 125px;
+    margin-top: 3px;
 }
+.imagen-logo{
 
+
+    background: url(imagenes/Logotipo\ de\ Bufete\ de\ Abogados\ en\ Azul\ y\ Dorado.jpg);
+    height:70px;
+    width: 90px;
+    margin: 5px;
+    background-size: cover; 
+    background-size:  cover;                  
+   background-repeat:   no-repeat;
+   background-position: center center;
+}
 .navegacion ul{
     margin: 0;
     padding: 0;
@@ -63,6 +74,13 @@ width: 100%;
 
 .navegacion ul li a:hover{
     background: rgb(105, 104, 104);
+}
+.ic{
+
+    background: url(imagenes/filtrar.png);
+    height: 90px;
+    width: 90px;
+    position: fixed;
 }
 .main{
     padding: 12rem;
@@ -428,5 +446,14 @@ a {
     font-size: 14px;
     border-radius: 5px;
     float:right;
+
+}
+
+.q{
+
+height: 35px;
+width: 200px;
+border-radius: 5px;
+margin: 20px;
 
 }
